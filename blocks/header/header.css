@@ -144,6 +144,10 @@ header .nav-brand {
   line-height: 1;
 }
 
+header .catering-header.nav-brand {
+  flex-basis: 50%;
+}
+
 header nav .nav-brand img {
   width: 128px;
   height: auto;
@@ -161,6 +165,12 @@ header nav[aria-expanded='true'] .nav-sections {
   display: block;
   visibility: visible;
   align-self: start;
+}
+
+header nav[aria-expanded='true'] .catering-navigation.nav-sections {
+  display: flex;
+  justify-content: flex-end;
+  color: black;
 }
 
 header nav .nav-sections ul {

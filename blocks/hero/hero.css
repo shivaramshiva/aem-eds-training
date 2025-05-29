@@ -16,6 +16,14 @@
   color: var(--background-color);
 }
 
+.hero #le-catering {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 12px 24px;
+  color: #56575b;
+}
+
 .hero picture {
   position: absolute;
   z-index: -1;
