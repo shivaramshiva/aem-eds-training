@@ -30,4 +30,10 @@
     flex: 1;
     order: unset;
   }
+
+  .column-details .columns > div {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    border-bottom: 1px solid #ccc;
+  }
 }

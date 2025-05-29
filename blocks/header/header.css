@@ -133,6 +133,12 @@ header nav[aria-expanded='true'] .nav-hamburger-icon::after {
     display: none;
     visibility: hidden;
   }
+
+  header nav[aria-expanded='true'] .catering-navigation.nav-sections {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+  }
 }
 
 /* brand */
@@ -167,10 +173,15 @@ header nav[aria-expanded='true'] .nav-sections {
   align-self: start;
 }
 
-header nav[aria-expanded='true'] .catering-navigation.nav-sections {
-  display: flex;
-  justify-content: flex-end;
-  color: black;
+.section.catering-header.nav-brand a,
+header nav[aria-expanded='true'] .catering-navigation.nav-sections a {
+  padding: 8px 16px;
+}
+
+.section.catering-header.nav-brand a:hover,
+header nav[aria-expanded='true'] .catering-navigation.nav-sections a:hover {
+  background-color: #ccc;
+  text-decoration: none;
 }
 
 header nav .nav-sections ul {
