@@ -5,6 +5,9 @@ header .nav-wrapper {
   z-index: 2;
   position: fixed;
 }
+header .nav-wrapper:has(.catering-header) {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
 
 header nav {
   box-sizing: border-box;
